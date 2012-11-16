@@ -28,8 +28,8 @@ cd djsetuplocal/djsetuplocal
 
 ## Enter all local development environment information below
 ### dj/setuplocal/djsetuplocal/local_settings.py
-#### Grabs the site root setup in settings.py
 ````python
+# Grabs the site root setup in settings.py
   import os
   from settings import SITE_ROOT
 
