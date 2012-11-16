@@ -3,8 +3,10 @@
 ### Glen Baker - iepathos@gmail.com
 #### I learned this method from django-workshop.de
 
-+ django-admin.py startproject djsetuplocal
-+ cd djsetuplocal/djsetuplocal
+````shell
+django-admin.py startproject djsetuplocal
+cd djsetuplocal/djsetuplocal
+````
 
 ## Edit settings.py
 ### djsetuplocal/djsetuplocal/settings.py
