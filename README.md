@@ -13,7 +13,7 @@ cd djsetuplocal/djsetuplocal
 ### djsetuplocal/djsetuplocal/settings.py
 ````python
   import os
-  SITE_ROOT = os.realpath.realpath(os.path.dirname(__file__))
+  SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
 
   DEBUG = False
 # delete TEMPLATE_DEBUG = DEBUG
