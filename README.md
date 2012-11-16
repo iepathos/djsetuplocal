@@ -1,11 +1,9 @@
 # How to Setup your Django 1.4.2 project with a local_settings.py
 ## Setup your development environment - Quick and Clean
 ### Written by Glen Baker - iepathos@gmail.com
-````html
 <a href="http://coderwall.com/iepathos">
   <img src="http://api.coderwall.com/iepathos/endorsecount.png" />
 </a>
-````
 #### I learned this method from [Link](http://www.django-workshop.de)
 
 ## Start new Django 1.4.2 project - djsetuplocal
