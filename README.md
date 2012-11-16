@@ -1,6 +1,6 @@
-# How to Setup your Django project with a local_settings.py
-# for your development environment - Quick and Clean
-### Glen Baker - iepathos@gmail.com
+# How to Setup your Django 1.4.2 project with a local_settings.py
+## Setup your development environment - Quick and Clean
+### By Glen Baker - iepathos@gmail.com
 #### I learned this method from django-workshop.de
 
 ````shell
