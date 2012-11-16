@@ -16,5 +16,3 @@ DATABASES = {
         'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
     }
 }
-
-TIME_ZONE = 'America/Los_Angeles'
