@@ -5,11 +5,6 @@ SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
 DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
-try:
-  from local_settings import *
-except ImportError:
-  pass
-
 ADMINS = (
     # ('Your Name', 'your_email@example.com'),
 )
@@ -156,3 +151,8 @@ LOGGING = {
         },
     }
 }
+
+try:
+  from local_settings import *
+except ImportError:
+  pass
