@@ -50,9 +50,8 @@ cd djsetuplocal/djsetuplocal
   }
 ````
 
-And you're good to go.  Enter new local development databases into local_settings.py.
-create .gitignore file in djsetuplocal
-### djsetuplocal/
+## And you're good to go.  Enter new local development databases into local_settings.py.  Create .gitignore file in djsetuplocal and make sure local_settings.py is added to it.
+### djsetuplocal/.gitignore
 ````text
   *.pyc
   *.pyo
