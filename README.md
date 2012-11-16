@@ -18,7 +18,7 @@ cd djsetuplocal/djsetuplocal
 # delete TEMPLATE_DEBUG = DEBUG
 ````
 
-## At the bottom of settings.py, below Logging
+#### At the bottom of settings.py, below Logging
 ````python
   try:
     from local_settings import *
@@ -27,7 +27,7 @@ cd djsetuplocal/djsetuplocal
 ````
 
 ## Enter all local development environment information below
-### dj/setuplocal/djsetuplocal/local_settings.py
+### djsetuplocal/djsetuplocal/local_settings.py
 ````python
 # Grabs the site root setup in settings.py
   import os
@@ -51,6 +51,7 @@ cd djsetuplocal/djsetuplocal
 
 And you're good to go.  Enter new local development databases into local_settings.py.
 create .gitignore file in djsetuplocal
+### djsetuplocal/
 ````text
   *.pyc
   *.pyo
