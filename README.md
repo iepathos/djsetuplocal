@@ -15,11 +15,10 @@ cd djsetuplocal/djsetuplocal
   SITE_ROOT = os.realpath.realpath(os.path.dirname(__file__))
 
   DEBUG = False
+# delete TEMPLATE_DEBUG = DEBUG
 ````
 
-# delete TEMPLATE_DEBUG = DEBUG
-
-# At the bottom of settings.py, below Logging
+## At the bottom of settings.py, below Logging
 ````python
   try:
     from local_settings import *
