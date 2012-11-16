@@ -3,6 +3,7 @@
 ### By Glen Baker - iepathos@gmail.com
 #### I learned this method from django-workshop.de
 
+## Start new Django 1.4.2 project
 ````shell
 django-admin.py startproject djsetuplocal
 cd djsetuplocal/djsetuplocal
