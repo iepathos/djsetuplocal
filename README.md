@@ -3,7 +3,7 @@
 ### By Glen Baker - iepathos@gmail.com
 #### I learned this method from django-workshop.de
 
-## Start new Django 1.4.2 project
+## Start new Django 1.4.2 project - djsetuplocal
 ````shell
 django-admin.py startproject djsetuplocal
 cd djsetuplocal/djsetuplocal
@@ -27,7 +27,7 @@ cd djsetuplocal/djsetuplocal
     pass
 ````
 
-## Enter all local development environment information below
+## Enter all local information in local_settings.py
 ### djsetuplocal/djsetuplocal/local_settings.py
 ````python
 # Grabs the site root setup in settings.py
